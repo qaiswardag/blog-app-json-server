@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "node": "^17.1.0"
+  },
+  "name": "npm-json-server",
+  "version": "1.0.0",
+  "description": "Fake REST API json-server",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Qais Wardag",
+  "license": "ISC"
+}
