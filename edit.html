@@ -1,37 +1,31 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<link rel="stylesheet" href="./src/style/style.css" />
-	<script defer type="module" src="./js/index.js"></script>
-
+	<script defer type="module" src="./js/edit.js"></script>
 	<title>Discover Stories & News</title>
 </head>
 
-
-
 <body>
 
+
 	<div class="container">
+
 		<nav>
 			<a class="logo" href="/index.html">
 				<div>JSON Server</div>
 			</a>
-			<a class="btn" href="/create.html">Add a new blog</a>
 		</nav>
 
-		<form class="search">
-			<input type="text" placeholder="search term" name="term" autocomplete="off">
-		</form>
 
-		<h2>Discover Stories & News</h2>
-		<div class="blogs grid grid--2-cols">
-			<!-- inject blogs here from js -->
-		</div>
+		<h2>Edit Blog</h2>
+		<form class="edit">
+			<input type="text" name="title" required placeholder="Blog title">
+			<textarea name="body" required placeholder="Blog body"></textarea>
+			<button class="btn update">Update</button>
+		</form>
 	</div>
 
 	<footer class="footer">

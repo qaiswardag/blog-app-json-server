@@ -7,28 +7,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="./src/style/style.css" />
-	<script defer src="./js/details.js"></script>
+	<script defer type="module" src="./js/details.js"></script>
 
 	<title>Discover Stories & News</title>
 </head>
-
-
 
 <body>
 
 	<div class="container">
 		<nav>
-			<a style="color:black" href="/index.html">
-				<h3>Discover Stories & News</h3>
+			<a class="logo" href="/index.html">
+				<div>JSON Server</div>
 			</a>
 			<a class="btn" href="/create.html">Add a new blog</a>
 		</nav>
 
+
 		<div class="blog">
-			<h2>Discover Stories & News</h2>
 			<!-- inject blogs here from js -->
 		</div>
+		<button class="btn delete">Delete blog</button>
+		<button class="btn editBtn">Edit blog</button>
+		<!-- <a class="btn edit" href="edit.html">Edit blog</a> -->
 	</div>
+
+	<footer class="footer">
+		<p>Discover Stories & News</p>
+	</footer>
 </body>
 
 </html>
