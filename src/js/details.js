@@ -62,7 +62,8 @@ deleteBtn.addEventListener('click', async (e) => {
 //
 // edit blog
 editBtn.addEventListener('click', (e) => {
-  window.location = `/edit.html?id=${id}`;
+  // window.location = `/edit.html?id=${id}`;
+  window.location = `./edit.html?id=${id}`;
 });
 //
 //

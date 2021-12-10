@@ -50,7 +50,7 @@ class Display {
       //
       const html = `
 	  <div class="post-single">
-    <a href="/details.html?id=${blog.id}">
+    <a href="./src/views/details.html?id=${blog.id}">
     <h3 class="title">${blog.title}</h3>
     </a>
 	  <span class="post-tag"><strong>ID: </strong>${blog.id}</span>
@@ -58,7 +58,7 @@ class Display {
     ${blog.likes}
     </span>
     <p>${blog.body.slice(0, 200)}
-    <a href="/details.html?id=${blog.id}">read more...</a>
+    <a href="./src/views/details.html?id=${blog.id}">read more...</a>
     </p>
 	  </div>
 	  `;
