@@ -157,6 +157,12 @@ nav {
   align-items: center;
 }
 
+.logo:link,
+.logo:visited {
+  font-size: 4rem;
+  color: #000;
+}
+
 /**************************/
 /* GENERAL REUSABLE COMPONENTS */
 /**************************/
